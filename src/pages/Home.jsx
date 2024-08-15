@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../styles/home.css';
+import '../styles/Home.css';
 import meImage from '../assets/me.png';
 import Typed from 'typed.js';
 
