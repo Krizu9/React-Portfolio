@@ -54,6 +54,7 @@ const Home = () => {
                     <div className="skills-icons">
                         <i>C</i>
                         <i>C#</i>
+                        <i>Vue3</i>
                         <i>Python</i>
                         <i>CSS</i>
                         <i>HTML</i>
