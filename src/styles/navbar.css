@@ -1,4 +1,3 @@
-/* General Navbar Styles */
 .navbar {
     background-color: #000000;
     padding: 10px;
@@ -16,11 +15,9 @@
     color: #f0f0f0;
     text-align: center;
     display: inline-block;
-    padding: 10px 20px;
     border-radius: 50px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    /* Ensure consistent transition */
 }
 
 .navbar-toggler {
@@ -30,10 +27,8 @@
 .btn-secondary {
     background: black;
     transition: all 0.3s ease;
-    /* Ensure consistent transition */
 }
 
-/* Hover and Focus States */
 .navbar-brand:hover {
     background: #000000;
     color: #fff;
@@ -46,9 +41,7 @@
     text-align: center;
     display: inline-block;
     padding: 10px 15px;
-    border-radius: 50px;
     transition: all 0.3s ease;
-    /* Ensure consistent transition */
     margin: 0 5px;
 }
 
@@ -63,32 +56,19 @@
     align-items: center;
 }
 
-.navbar-nav .dropdown .btn {
-    font-size: 1.25rem;
-    color: #f0f0f0;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 15px;
-    transition: all 0.3s ease;
-    /* Ensure consistent transition */
-    margin: 0 5px;
-}
-
-.navbar-nav .dropdown .btn:hover {
-    background: #000000;
-    color: #fff;
-    transform: scale(1.1);
-}
-
-/* Language Dropdown Button Styles */
 .navbar-nav .dropdown .btn-secondary {
-    padding-left: 60px;
+    align-self: center;
+    text-align: center;
+    padding: 10px 20px;
     font-size: 1.5rem;
     background-color: black;
     border: none;
     color: #f0f0f0;
     transition: all 0.3s ease;
-    /* Ensure consistent transition */
+    width: 150px;
+    height: 50px;
+    line-height: 1.5;
+    overflow: hidden;
 }
 
 .navbar-nav .dropdown .btn-secondary:hover,
@@ -96,33 +76,28 @@
     background-color: black;
     color: #f0f0f0;
     transform: scale(1.1);
-    /* Apply the same transformation */
 }
 
-/* Dropdown Menu Styles */
 .navbar-nav .dropdown-menu {
     background-color: black;
     border: none;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 0;
-    width: 100%;
+    min-width: 150px;
     text-align: center;
     position: absolute;
     top: 100%;
-    /* Position below the button */
     left: 0;
-    /* Align to the left edge of the button */
+    transform: translateX(0);
 }
 
-/* Dropdown Menu Item Styles */
 .navbar-nav .dropdown-menu .dropdown-item {
     font-size: 1.5rem;
     color: #f0f0f0;
     padding: 10px 20px;
     text-align: center;
     transition: all 0.3s ease;
-    /* Ensure consistent transition */
 }
 
 .dropdown-item.lang {
@@ -136,13 +111,12 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: scale(1.1);
-    /* Apply the same transformation */
 }
 
-/* Responsive Styles for Small Screens */
 @media (max-width: 992px) {
     .navbar-nav {
         text-align: center;
+        width: 100%;
     }
 
     .navbar-nav .nav-link {
@@ -150,19 +124,23 @@
         margin: 10px 0;
     }
 
-    .navbar-nav .dropdown .btn {
-        display: block;
+    .navbar-nav .dropdown .btn-secondary {
+        padding: 10px;
+        margin: 10px auto;
         width: 100%;
-        margin: 10px 0;
+        height: auto;
+        font-size: 1.5rem;
     }
 
     .navbar-nav .dropdown-menu {
         width: 100%;
         text-align: center;
+        margin: 0;
     }
 
     .navbar-nav .dropdown-menu .dropdown-item {
         display: block;
         text-align: center;
+        font-size: 1.5rem;
     }
 }
