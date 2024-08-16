@@ -1,21 +1,29 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Banner Section */
 .banner {
     background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926');
     background-size: cover;
     background-position: center;
     height: 30rem;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     color: white;
-    text-align: center;
+    text-align: left;
+    padding: 2rem;
 }
 
 .text-content {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    padding: 1rem;
-    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 50%;
 }
 
 .image {
@@ -26,7 +34,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3rem;
+    margin-left: 2rem;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 .bannerimage {
@@ -35,10 +44,104 @@
     object-fit: cover;
 }
 
+.card {
+    border-radius: 16px;
+    border: 2px solid #d35656;
+    border: #d35656;
+    box-shadow: 0 6px 12px rgba(112, 75, 75, 0.5);
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    background-color: black !important;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(69, 231, 19, 0.5);
+    background-color: black;
+}
+
+.card h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* Grid Layout for Skills and Hobbies */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 4rem;
+
+    justify-items: center;
+
+}
+
+.grid-item {
+    width: 100%;
+    max-width: 350px;
+    /* Optional: limit the maximum width of the grid items */
+}
+
+/* Skills and Hobbies Icons */
+.skills-icons,
+.hobbies-icons  {
+    font-size: 2rem;
+    color: #d35656;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.skills-icons i,
+.hobbies-icons i {
+    transition: color 0.3s;
+
+}
+
+.skills-icons i:hover,
+.hobbies-icons i:hover {
+    color: green;
+
+
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .text-content {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
     .image {
         width: 40vw;
         height: 40vw;
-        margin: 1rem;
+        margin: 1rem 0;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .skills-icons,
+    .hobbies-icons {
+        font-size: 1.5rem;
     }
 }

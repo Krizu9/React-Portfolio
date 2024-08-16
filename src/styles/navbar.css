@@ -1,17 +1,18 @@
+/* Navbar Styles */
 .navbar {
     background-color: #000000;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: cursive;
-    font-size: 2em;
+    font-size: 1em;
+    position: relative;
+    z-index: 1000;
 }
 
 .navbar-brand {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Arial', sans-serif;
     font-size: 1.5rem;
-    font-weight: bold;
     color: #f0f0f0;
     text-align: center;
     display: inline-block;
@@ -32,9 +33,14 @@
     transform: scale(1.1);
 }
 
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
 .navbar-nav .nav-link {
     font-size: 1.25rem;
-    font-weight: bold;
     color: #f0f0f0;
     text-align: center;
     display: inline-block;
@@ -51,13 +57,78 @@
     transform: scale(1.1);
 }
 
+.navbar-nav .dropdown {
+    position: relative;
+}
+
+.navbar-nav .dropdown .btn {
+    font-size: 1.25rem;
+    color: #f0f0f0;
+    background: #333;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+
+.navbar-nav .dropdown .btn:hover {
+    background: #000000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #f0f0f0;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
 @media (max-width: 992px) {
     .navbar-nav {
-        text-align: right;
+        text-align: center;
+        margin-top: 10px;
     }
 
     .navbar-nav .nav-link {
         display: block;
+        margin: 10px 0;
+    }
+
+    .navbar-nav .dropdown .btn {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .navbar-nav .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-nav .dropdown-menu .dropdown-item {
+        display: block;
+        text-align: center;
         margin: 10px 0;
     }
 }

@@ -1,8 +1,11 @@
 import React from 'react';
 import '../styles/Footer.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+    const { t } = useTranslation();
+
     return (
         <footer className="footer">
             <div className="footer-content">
@@ -17,7 +20,7 @@ const Footer = () => {
                         <i className="bi bi-github"></i>
                     </a>
                 </div>
-                <p className="footer-text">Social medias</p>
+                <p className="footer-text">{t('socialmedias')}</p>
             </div>
         </footer>
     );

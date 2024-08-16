@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import App from './App.jsx';
 import Navbar from './components/navbar.jsx';
 import './styles/index.css';
+import './i18n.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
