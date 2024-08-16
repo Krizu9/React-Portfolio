@@ -35,6 +35,13 @@
     transform: scale(1.1);
 }
 
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-nav .nav-link {
     font-size: 1.5rem;
     color: #f0f0f0;
@@ -54,12 +61,13 @@
 .navbar-nav .dropdown {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .navbar-nav .dropdown .btn-secondary {
     align-self: center;
     text-align: center;
-    padding: 10px 20px;
+    padding: 0px 20px;
     font-size: 1.5rem;
     background-color: black;
     border: none;
@@ -117,6 +125,7 @@
     .navbar-nav {
         text-align: center;
         width: 100%;
+        flex-direction: column;
     }
 
     .navbar-nav .nav-link {
