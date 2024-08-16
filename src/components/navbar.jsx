@@ -38,11 +38,11 @@ const Navbar = () => {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                Language
+                                {t('language')}
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="languageDropdown">
                                 <li><button className="dropdown-item lang" onClick={() => changeLanguage('en')}>English</button></li>
-                                <li><button className="dropdown-item lang" onClick={() => changeLanguage('fi')}>Suomi</button></li>
+                                <li><button className="dropdown-item lang" onClick={() => changeLanguage('fi')}>Finnish</button></li>
                             </ul>
                         </li>
 
