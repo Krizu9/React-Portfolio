@@ -1,6 +1,8 @@
 .footer {
     padding: 20px;
     text-align: center;
+    border-color: white;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
 }
 
 .footer-content {

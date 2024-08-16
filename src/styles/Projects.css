@@ -16,7 +16,9 @@ p {
 }
 
 .projects {
+    margin-top: 2rem;
     color: white;
+    
 }
 
 .cardGrid {
