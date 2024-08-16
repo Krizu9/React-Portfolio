@@ -21,5 +21,14 @@
     "socialmedias": "Sosiaaliset mediat",
     "home": "Koti",
     "projects": "Projektit",
-    "contact": "Yhteystiedot"
+    "projectsDescription": "Tässä ovat jotkin projekteistani:",
+    "project1Title": "Projekti 1",
+    "project2Title": "Projekti 2",
+    "project3Title": "Projekti 3",
+    "project4Title": "Projekti 4",
+    "project5Title": "Projekti 5",
+    "projectDescription": "Projektin kuvaus jollakin tekstillä",
+    "technologies": "Teknologiat:",
+    "souceCode": "Lähdekoodi",
+    "liveDemo": "Live Demo"
 }

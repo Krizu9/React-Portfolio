@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+p {
+    text-align: center;
+    margin: 1rem;
+    color: white;
+}
+
+.projects {
+    color: white;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.card {
+    border-radius: 16px;
+    border: 2px solid #d35656;
+    border: #d35656;
+    box-shadow: 0 6px 12px rgba(112, 75, 75, 0.5);
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(69, 231, 19, 0.5);
+    background-color: black;
+}
+
+.card h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.projectname {
+    color: white;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+image {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.project-links {
+    margin-top: 1rem;
+}
+
+.project-links a {
+    color: #d35656;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+    color: green;
+}

@@ -44,8 +44,11 @@ const Home = () => {
                         {t('stack')}
                     </p>
                 </div>
-                <div className="image">
-                    <img className="bannerimage" src={meImage} alt="Me" />
+                <div className="image-container">
+                    <div className="image">
+                        <img className="bannerimage" src={meImage} alt="Me" />
+                    </div>
+                    <h2 className="name">Kristian Pekkanen</h2>
                 </div>
             </div>
             <div className="grid-container">

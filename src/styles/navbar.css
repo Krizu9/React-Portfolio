@@ -7,7 +7,6 @@
     align-items: center;
     font-size: 1em;
     position: relative;
-    z-index: 1000;
 }
 
 .navbar-brand {
@@ -58,7 +57,7 @@
 }
 
 .navbar-nav .dropdown {
-    position: relative;
+    position: relative; /* Ensure dropdown menu positions correctly */
 }
 
 .navbar-nav .dropdown .btn {
@@ -86,9 +85,9 @@
     padding: 0;
     margin: 0;
     position: absolute;
-    top: 100%;
+    top: 100%; /* Positions the menu directly below the button */
     left: 0;
-    width: 100%;
+    width: 100%; /* Full width of the dropdown button */
     text-align: center;
 }
 
@@ -96,7 +95,7 @@
     color: #f0f0f0;
     padding: 10px 20px;
     text-align: center;
-    margin: 5px 0;
+    margin: 0; /* No margin to prevent layout shifts */
 }
 
 .navbar-nav .dropdown-menu .dropdown-item:hover {
@@ -104,6 +103,7 @@
     color: #fff;
 }
 
+/* Mobile Responsive Styles */
 @media (max-width: 992px) {
     .navbar-nav {
         text-align: center;
@@ -122,13 +122,15 @@
     }
 
     .navbar-nav .dropdown-menu {
-        width: 100%;
+        width: 100%; /* Ensure dropdown menu is full width */
         text-align: center;
+        position: static; /* Dropdown appears as part of the flow on mobile */
+        box-shadow: none; /* Remove shadow on mobile */
     }
 
     .navbar-nav .dropdown-menu .dropdown-item {
         display: block;
         text-align: center;
-        margin: 10px 0;
+        margin: 0; /* No margin to prevent layout shifts */
     }
 }
