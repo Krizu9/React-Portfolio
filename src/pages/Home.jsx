@@ -51,6 +51,12 @@ const Home = () => {
                     <h2 className="name">Kristian Pekkanen</h2>
                 </div>
             </div>
+            <div className="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/vKFudd4_OSU"
+                    allowFullScreen
+                ></iframe>
+            </div>
             <div className="grid-container">
                 <div className="skills card grid-item">
                     <h1>{t('skills')}</h1>
