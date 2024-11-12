@@ -29,9 +29,10 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/Contact">{t('contact')}</Link>
                         </li>
-                        <li className="nav-item dropdown">
+                        <li className="langdrop">
+                            <div className="nav-item dropdown">
                             <button
-                                className="btn btn-secondary dropdown-toggle"
+                                className="btn btn-secondary dropdown-toggle langbtn"
                                 type="button"
                                 id="languageDropdown"
                                 data-bs-toggle="dropdown"
@@ -43,6 +44,7 @@ const Navbar = () => {
                                 <li><button className="dropdown-item lang" onClick={() => changeLanguage('en')}>English</button></li>
                                 <li><button className="dropdown-item lang" onClick={() => changeLanguage('fi')}>Finnish</button></li>
                             </ul>
+                        </div>
                         </li>
 
                     </ul>
