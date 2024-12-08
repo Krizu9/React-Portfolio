@@ -94,6 +94,10 @@ const Home = () => {
                         {t('tokmanniDescription')}
                     </li>
                     <li>
+                        <strong>09/2019–03/2020:</strong> {t('eniaRole')}, Enia Oy<br />
+                        {t('eniaDescription')}
+                    </li>
+                    <li>
                         <strong>05/2019–12/2019:</strong> {t('atkpalvelutRole')}, ATK-Palvelut ja Neuvonta Pekkanen<br />
                         {t('atkpalvelutDescription')}
                     </li>
