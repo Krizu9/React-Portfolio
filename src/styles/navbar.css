@@ -81,7 +81,7 @@
 
 .email{
     color: #f0f0f0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 10px 15px;
     margin: 0 5px;
     text-decoration: none;
@@ -141,6 +141,10 @@
         text-align: center;
         width: 100%;
         flex-direction: column;
+    }
+
+    .email {
+        font-size: 1rem;
     }
 
     .navbar-nav .nav-link {
