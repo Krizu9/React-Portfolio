@@ -79,6 +79,14 @@
     overflow: hidden;
 }
 
+.email{
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
 .navbar-nav .dropdown .btn-secondary:hover,
 .navbar-nav .dropdown .btn-secondary:focus {
     background-color: black;

@@ -30,6 +30,7 @@ body {
 }
 
 
+
 .text-content {
     background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
@@ -62,6 +63,17 @@ body {
     object-fit: cover;
 }
 
+ul {
+    padding-left: 0;
+    color: white;
+    list-style: none;
+    height: 100%;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
 .name {
     margin-top: 1rem;
     color: white;
@@ -69,14 +81,15 @@ body {
     text-align: center;
 }
 
+
 .card {
     border-radius: 16px;
     border: 2px solid #d35656;
     box-shadow: 0 6px 12px rgba(112, 75, 75, 0.5);
-    padding: 2rem;
+    padding: 1.5rem;
     margin: 1rem;
-    text-align: center;
-    background-color: black !important;
+    text-align: left;
+    background-color: black!important;
 }
 
 .card:hover {
@@ -87,10 +100,11 @@ body {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: white;
+    align-self: center;
 }
 
 .card p {
-    font-size: 1.1rem;
+    font-size: 2rem;
     color: white;
 }
 
@@ -99,12 +113,12 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
     padding: 4rem;
-    justify-items: center;
+    justify-items: left;
 }
 
 .grid-item {
     width: 100%;
-    max-width: 350px;
+    max-width: 20rem;
 }
 
 .skills-icons,
@@ -115,6 +129,14 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+}
+.about.card.grid-item, .skills.card.grid-item, .hobbies.card.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align:start;
+    padding: 2rem;
 }
 
 .skills-icons i,
@@ -151,7 +173,7 @@ body {
     }
 
     .grid-container {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     .card {

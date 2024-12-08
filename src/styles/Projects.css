@@ -18,7 +18,6 @@ p {
 .projects {
     margin-top: 2rem;
     color: white;
-    
 }
 
 .cardGrid {
@@ -32,11 +31,14 @@ p {
 .card {
     border-radius: 16px;
     border: 2px solid #d35656;
-    border: #d35656;
     box-shadow: 0 6px 12px rgba(112, 75, 75, 0.5);
     padding: 2rem;
     margin: 1rem;
     text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card:hover {
@@ -44,8 +46,8 @@ p {
     background-color: black;
 }
 
-.card h1 {
-    font-size: 2rem;
+.card h2 {
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     color: white;
 }
@@ -54,25 +56,22 @@ p {
     color: white;
 }
 
-.card p {
-    font-size: 1.1rem;
-    color: white;
+.card img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 1rem auto;
 }
 
-image {
-    width: 20vw;
-    height: 20vw;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2rem;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+.card p {
+    font-size: 1rem;
+    color: white;
+    margin: 0.5rem 0;
 }
 
 .project-links {
-    margin-top: 1rem;
+    margin-top: auto;
 }
 
 .project-links a {
