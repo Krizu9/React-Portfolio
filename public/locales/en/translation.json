@@ -40,9 +40,9 @@
     "gymDiaryFrontendTechnologies": "Technologies: Vue Vite, D3.js, Pinia, Vue Router and Axios.",
     "gymDiaryBackendDescription": "Gym Diary is a project that I built to keep track of my gym workouts. This is the backend part.",
     "gymDiaryBackendTechnologies": "Technologies: Node.js, Express.js, Jswonwebtoken, Bcryptjs and MongoDB.",
-    "gymDiaryMobileDescription": "Gym Diary project continuation. Standalone mobile application. (current project).",
+    "gymDiaryMobileDescription": "Gym Diary project continuation. Standalone mobile application.",
     "gymDiaryMobileTechnologies": "Technologies: Flutter, Dart, Provider, sqflite and D3.js.",
-    "gymDiaryMobile": "Gym Diary standalone mobile version (current project)",
+    "gymDiaryMobile": "Gym Diary standalone mobile version.",
     "workHistory": "Work History",
     "educationHistory": "Education History",
     "casamediaRole": "Fullstack Developer",
@@ -74,7 +74,7 @@
     "jamk": "Jyväskylä University of Applied Sciences",
     "eniaDescription": "Customer aquisition and sales at highly competitive gsm-market",
     "eniaRole": "Salesrepresentative",
-    "reactWebGames": "React Web Games",
+    "reactWebGames": "React Web Games (current project).",
     "reactWebGamesDescription": "React Web Games is a project, where I used React to create a website with multiple games. The website is hosted on AWS with CI/CD pipeline.",
     "reactWebGamesTechnologies": "Teknologiat: React, TypeScript, AWS, CI/CD pipeline GitHub to AWS."
 }
