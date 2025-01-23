@@ -44,7 +44,7 @@
     "gymDiaryBackendDescription": "Gym Diary on projekti, jonka rakensin seuraamaan kuntosalitreenejäni. Tämä on backend osa.",
     "gymDiaryBackendTechnologies": "Teknologiat: Node.js, Express.js, Jswonwebtoken, Bcryptjs ja MongoDB.",
     "gymDiaryMobileDescription": "Gym Diary projektin jatko-osa. Standalone mobiilisovellus.",
-    "gymDiaryMobileTechnologies": "Teknologiat: Flutter, Dart, Provider, sqflite ja D3.js.",
+    "gymDiaryMobileTechnologies": "Teknologiat: Flutter, Dart, Provider ja sqflite.",
     "gymDiaryMobile": "Gym Diary standalone mobiiliversio.",
     "workHistory": "Työkokemus",
     "educationHistory": "Koulutushistoria",

@@ -41,7 +41,7 @@
     "gymDiaryBackendDescription": "Gym Diary is a project that I built to keep track of my gym workouts. This is the backend part.",
     "gymDiaryBackendTechnologies": "Technologies: Node.js, Express.js, Jswonwebtoken, Bcryptjs and MongoDB.",
     "gymDiaryMobileDescription": "Gym Diary project continuation. Standalone mobile application.",
-    "gymDiaryMobileTechnologies": "Technologies: Flutter, Dart, Provider, sqflite and D3.js.",
+    "gymDiaryMobileTechnologies": "Technologies: Flutter, Dart, Provider and sqflite.",
     "gymDiaryMobile": "Gym Diary standalone mobile version.",
     "workHistory": "Work History",
     "educationHistory": "Education History",
