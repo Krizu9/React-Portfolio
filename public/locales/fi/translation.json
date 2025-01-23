@@ -43,9 +43,9 @@
     "gymDiaryFrontendTechnologies": "Teknologiat: Vue Vite, D3.js, Pinia, Vue Router ja Axios.",
     "gymDiaryBackendDescription": "Gym Diary on projekti, jonka rakensin seuraamaan kuntosalitreenejäni. Tämä on backend osa.",
     "gymDiaryBackendTechnologies": "Teknologiat: Node.js, Express.js, Jswonwebtoken, Bcryptjs ja MongoDB.",
-    "gymDiaryMobileDescription": "Gym Diary projektin jatko-osa. Standalone mobiilisovellus. (nykyinen projekti).",
+    "gymDiaryMobileDescription": "Gym Diary projektin jatko-osa. Standalone mobiilisovellus.",
     "gymDiaryMobileTechnologies": "Teknologiat: Flutter, Dart, Provider, sqflite ja D3.js.",
-    "gymDiaryMobile": "Gym Diary standalone mobiiliversio (nykyinen projekti).",
+    "gymDiaryMobile": "Gym Diary standalone mobiiliversio.",
     "workHistory": "Työkokemus",
     "educationHistory": "Koulutushistoria",
     "casamediaRole": "Fullstack-kehittäjä",
@@ -80,5 +80,8 @@
     "centria": "Centria ammattikorkeakoulu",
     "jamk": "Jyväskylän ammattikorkeakoulu",
     "eniaDescription": "Asiakkaiden hankintaa voimakkaasti kilpaillulla gsm-markkinoilla",
-    "eniaRole": "Myyntiedustaja"
+    "eniaRole": "Myyntiedustaja",
+    "reactWebGames": "React verkkopelit (nykyinen projekti).",
+    "reactWebGamesDescription": "React verkkopelit on projekti, jossa käytin Reactia luodakseni verkkopelisivuston. Tämä projekti on suoraa",
+    "reactWebGamesTechnologies": "Teknologiat: React, TypeScript, AWS, CI/CD pipeline GitHubista AWS."
 }

@@ -4,6 +4,7 @@ import '../styles/Projects.css';
 import gymdiaryfrontend from '../assets/gymdiary_front.png';
 import gymdiarybackend from '../assets/gymdiary_back.png';
 import gymdiarymobile from '../assets/gymdiary_mobile.png';
+import reactWebGames from '../assets/react_web_games.png';
 
 const Projects = () => {
     const { t } = useTranslation();
@@ -43,6 +44,16 @@ const Projects = () => {
                     </div>
                 </div>
                 
+                <div className="card">
+                    <h2 className="projectname">{t('reactWebGames')}</h2>
+                    <img src={reactWebGames} alt={t('project5Title')} />
+                    <p>{t('reactWebGamesDescription')}</p>
+                    <p>{t('reactWebGamesTechnologies')}</p>
+                    <div className="project-links">
+                        <a href="https://github.com/Krizu9/react-games-webpage" target="_blank" rel="noopener noreferrer">{t('souceCode')}</a>
+                        <a href="https://main.d2x6mwurewvsqv.amplifyapp.com/" target="_blank" rel="noopener noreferrer">{t('Live @ AWS')}</a>
+                    </div>
+                </div>
             </div>
         </div>
     );

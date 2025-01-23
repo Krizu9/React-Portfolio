@@ -73,5 +73,8 @@
     "centria": "Centria University of Applied Sciences",
     "jamk": "Jyväskylä University of Applied Sciences",
     "eniaDescription": "Customer aquisition and sales at highly competitive gsm-market",
-    "eniaRole": "Salesrepresentative"
+    "eniaRole": "Salesrepresentative",
+    "reactWebGames": "React Web Games",
+    "reactWebGamesDescription": "React Web Games is a project, where I used React to create a website with multiple games. The website is hosted on AWS with CI/CD pipeline.",
+    "reactWebGamesTechnologies": "Teknologiat: React, TypeScript, AWS, CI/CD pipeline GitHub to AWS."
 }
